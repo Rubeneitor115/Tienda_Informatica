@@ -105,13 +105,13 @@ public class OperativaImplementacion implements OperativaInterfaz{
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Introduzca el tipo del producto (Movil, Tablet, Portatil o PC):");
-		producto.setTipoProducto(sc.next());
+		producto.setTipoProducto(sc.nextLine());
 		System.out.println("Introduzca la marca del producto:");
-		producto.setMarca(sc.next());
+		producto.setMarca(sc.nextLine());
 		System.out.println("Introduzca el modelo del producto:");
-		producto.setModelo(sc.next());
+		producto.setModelo(sc.nextLine());
 		System.out.println("Introduzca el color del producto:");
-		producto.setColor(sc.next());
+		producto.setColor(sc.nextLine());
 		System.out.println("Introduzca la cantidad por la que desea vender el producto:");
 		producto.setPrecio(sc.nextInt());
 		producto.setVida("seminuevo");
